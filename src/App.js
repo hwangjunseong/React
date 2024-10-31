@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+//4 create a component(jsx를 반환하는 함수)
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  //   let message = 'hi ';
+  //   if (Math.random() > 0) {
+  //     message = 'bye';
+  //   }
 
+  //   return <h1>{new Date().toLocaleTimeString()}</h1>;
+  //   return <h1>{message}</h1>;
+  //   const inputType = 'number';
+  //   const minValue = 5;
+  //   return (
+  //     <input
+  //       style={{ border: '3px solid red' }}
+  //       type={inputType}
+  //       min={minValue}
+  //     />
+  //   );
+  // return <textarea autoFocus={true}></textarea>;
+  //   return <input spellCheck={false} />;
+  //   return <input style={{ border: '1px solid red' }}></input>;
+  return <input placeholder="hi there"></input>;
+}
 export default App;
